@@ -1,3 +1,8 @@
+body {
+  padding-left: 150px;
+  padding-right: 150px;
+  overflow: scroll;
+}
 nav {
   padding: 35px;
   padding-bottom: 50px;
@@ -33,8 +38,53 @@ nav p {
   float: left;
   padding: 0;
   margin: 0;
-  margin-right: 78%;
+  margin-right: 65%;
   height: 15px;
+}
+
+
+main {
+  padding-bottom:30px;
+}
+main ul:{
+  padding: 0;
+}
+main li img{
+  padding: 0;
+}
+
+main li {
+  list-style-type: none;
+}
+main li:nth-child(1) {
+  float:left;
+  margin:0;
+  padding-right: 10px;
+}
+
+main li:nth-child(2){
+  float:right;
+}
+
+
+main img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+main p {
+  text-indent: 50px;
+}
+main div {
+  height: 150px;
+  width: 100%;
+  background-image: url("img\list-bg.png");
+}
+
+
+
+footer {
 }
 
 footer {
