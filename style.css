@@ -41,8 +41,7 @@ nav p {
   margin-right: 65%;
   height: 15px;
 }
-
-
+/*===============================MAIN=====================================*/
 main {
   padding-bottom:30px;
 }
@@ -82,13 +81,9 @@ main div {
   background-image: url("img\list-bg.png");
 }
 
-
-
-footer {
-}
+/*=================================FOOTER===========================*/
 
 footer {
-  border: 1px solid red;
   padding: 35px;
   padding-top: 10px;
   border-top: solid black;
@@ -112,7 +107,7 @@ footer a {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   color: white;
-  background-color: #c86e57;
+  background-color: #c86e57 ;
 }
 
 footer h2 {
