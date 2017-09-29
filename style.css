@@ -1,0 +1,122 @@
+body {
+  padding-left: 150px;
+  padding-right: 150px;
+  overflow: scroll;
+}
+nav {
+  padding: 35px;
+  padding-bottom: 50px;
+  border-bottom: solid black;
+  margin: 0px;
+  padding-left: 0px;
+}
+nav img {
+  float: left;
+  content: center;
+}
+
+nav li {
+  float: right;
+  padding-left: 2px;
+}
+
+nav li:nth-child(2) {
+  padding-left: 6px;
+}
+nav ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+nav h2 {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+}
+nav p {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-right: 65%;
+  height: 15px;
+}
+/*===============================MAIN=====================================*/
+main {
+  padding-bottom:30px;
+}
+main ul:{
+  padding: 0;
+}
+main li img{
+  padding: 0;
+}
+
+main li {
+  list-style-type: none;
+}
+main li:nth-child(1) {
+  float:left;
+  margin:0;
+  padding-right: 10px;
+}
+
+main li:nth-child(2){
+  float:right;
+}
+
+
+main img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+main p {
+  text-indent: 50px;
+}
+main div {
+  height: 150px;
+  width: 100%;
+  background-image: url("img\list-bg.png");
+}
+
+/*=================================FOOTER===========================*/
+
+footer {
+  padding: 35px;
+  padding-top: 10px;
+  border-top: solid black;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+footer img:first-child {
+  float: left;
+  content: center;
+}
+
+.test {
+  float: left;
+  width: 75%;
+}
+
+footer a {
+  float: right;
+  content: center;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #c86e57 ;
+}
+
+footer h2 {
+  font-weight: bold;
+  margin:auto;
+}
+
+#footer {
+  margin:auto;
+  width: 5%;
+  padding-top: 50px;
+}
