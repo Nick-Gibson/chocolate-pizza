@@ -12,9 +12,15 @@ nav img {
 
 nav li {
   float: right;
+  padding-left: 2px;
+}
+
+nav li:nth-child(2) {
+  padding-left: 6px;
 }
 nav ul {
   margin: 0;
+  list-style-type: none;
 }
 
 nav h2 {
@@ -27,7 +33,6 @@ nav p {
   float: left;
   padding: 0;
   margin: 0;
-  margin-right: 70%;
+  margin-right: 78%;
   height: 15px;
-  position: sticky;
 }
